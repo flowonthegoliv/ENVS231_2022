@@ -16,3 +16,5 @@ def make_data(student_id):
   dat1 = np.array(df.iloc[:,int(tmp[0])+1])
   dat2 = np.array(df.iloc[:,int(tmp[1])+1])
   dat3 = np.array(df.iloc[:,int(tmp[2])+1])
+  
+  return datetime, dat1, dat2, dat3
